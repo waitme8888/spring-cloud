@@ -11,7 +11,6 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 
         Test test = new Test();
-		System.out.println(test.say());
 	}
 
 }
