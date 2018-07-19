@@ -1,29 +1,21 @@
 package com.waitme.cloud.test;
 
-import java.util.concurrent.*;
+import java.util.Arrays;
 
-/**
- * Created by weiwang207 on 2016/12/30.
- */
+
 public class Test {
-
-
-
-    public static void main(String[] args) throws Exception {
-        ScheduledExecutorService service = Executors.newScheduledThreadPool(3);
-        service.schedule(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("wwww");
-            }
-        }, 1000, TimeUnit.MILLISECONDS);
-
-        service.schedule(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("ssss");
-            }
-        }, 100000, TimeUnit.MILLISECONDS);
+    public static void main(String[] args) {
+//        int[] a = {5, 6, 2, 4, 8, 1, 9, 0};
+//        for (int i = 1; i < a.length; i++) {
+//            int j=i-1;
+//            int temp = a[i];
+//            while (j>=0 && a[j] > temp) {
+//                a[j+1] = a[j];
+//                j--;
+//            }
+//            a[j+1] =temp;
+//        }
+//        System.out.println(Arrays.toString(a));
     }
 
 
